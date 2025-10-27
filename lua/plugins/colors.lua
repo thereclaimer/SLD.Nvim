@@ -5,6 +5,7 @@ local function config_style()
     vim.api.nvim_set_hl(0, "LineNr",      { bg = "none" })
 end
 
+
 local function config_theme()
     vim.g.gruvbox_material_enable_italic          = 0 
     vim.g.gruvbox_material_background             = 'hard'
