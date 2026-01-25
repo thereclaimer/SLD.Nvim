@@ -5,10 +5,10 @@ return {
     opts = {},
     config = function()
 	require('gruvbox-material').setup({
-	    italics = true,             -- enable italics in general
-	    contrast = "medium",        -- set contrast, can be any of "hard", "medium", "soft"
+	    italics = false,             -- enable italics in general
+	    contrast = "hard",        -- set contrast, can be any of "hard", "medium", "soft"
 	    comments = {
-		italics = true,           -- enable italic comments
+		italics = false,           -- enable italic comments
 	    },
 	    background = {
 		transparent = true,      -- set the background to be opaque
